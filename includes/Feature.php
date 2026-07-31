@@ -1,8 +1,8 @@
 <?php
 declare(strict_types=1);
-namespace SangPortfolio;
+namespace SangPortfolio\GravityFormsAutomation;
 if (! defined('ABSPATH')) { exit; }
-final class GravityFormsAutomationFeature {
+final class Feature {
     private const OPTION = 'gravity_forms_automation_enabled';
     private const SLUG = 'gravity-forms-automation';
     private const TITLE = 'Gravity Forms Automation';
